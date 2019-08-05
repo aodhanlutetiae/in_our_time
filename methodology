@@ -1,4 +1,4 @@
-Methodology in compiling this In Our Time dataset. The dataset was established as follows:
+## Methodology in compiling this In Our Time dataset. The dataset was established as follows:
 
 The Wikipedia page 'List of In our time programmes' (https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes) 
 was scraped in late 2018, which gave three columns all the way from the start of the series in 1998: 
@@ -19,6 +19,10 @@ Treatment of one-offs: Darwin, The Royal Society, The Written World, William Wil
 
 The biggest potential for skewing the data in noting it comes in deciding on temporal and geographical categories. Some authors
 (T.S. Eliot, Samuel Beckett) have two countries, others belong to two centuries. These decisions are not footnoted or explained 
-but an effort was made to remain consistent - choosing the country or century the author did the bulk of his / her work in.
+but an effort was made to remain consistent - choosing the country or century the author did the bulk of his / her work in. Where
+a people or a movement flourished from the 3rd to the 9th century, they were classified as the midpoint, the 6th century. Where
+it made no sense to assign a century to a subject (e.g. The Brain), 0 was used to indicate 'can't be classified'.
 
 Where academics have several affilitations, their principal position was chosen (insofar as it was obvious).
+
+Any titles that differed slightly in the Wikipedia page from the Radio 4 website were corrected when found.
