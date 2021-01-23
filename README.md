@@ -1,10 +1,16 @@
-a github repository and site for analysis of the BBC Radio 4 programme 'In Our Time', which has been running since 1998.
+A github repository for analysis of the BBC Radio 4 programme 'In Our Time', which has been running since 1998. The episode pages were scraped in Jan 2020 and an initial dataset established with the following variables:
 
-The basic dataset was established as follows:
+- subject: title of episode
+- summary: textual summary of what the episode is about
+- date_str: date as a string, in a human-readable european format: dd-mm-yyyy
+- featured_in_tags: a list of subject tags for a given episode
+- address: url for the episode's webpage
+- date_dt: date as a datetime object: yyyy-mm-dd
+- day: day of the week the programme aired
 
-The Wikipedia page 'List of In our time programmes' (https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes) was scraped in late 2018, which gave three columns all the way from the start of the series: date/subject/contributors & institutions
+This repo contains:
 
-The contributors & institutions column was replaced by six columns: one for each of the three contributors and his or her institution
-Four columns were added after the programme topic: century, region, genre (culture/history/science/religion/philosophy) and gender of topic-subject (if applicable)
-Some cleaning of dataset
-Once the data was entered, each season was double-checked for typos or irregularities
+- JSON file with a list of all the episode URLs scraped (url_list_932.json)
+- jupyter notebook for scraping and cleaning of the data (IOT scraping and wrangling episode data 2301.ipynb)
+- CSV with the above data (876, 7) (iot_halfclean.csv)
+- jupyter notebook for analysis of the data ('IOT analysis.ipynb')
